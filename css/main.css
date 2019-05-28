@@ -768,6 +768,14 @@ footer h1 {
     width: initial !important;
   }
 
+  div.grid1 {
+    width: initial !important;
+  }
+
+  div.grid2 {
+    width: initial !important;
+  }
+
   .btn {
     margin-top: 80px;
   }
