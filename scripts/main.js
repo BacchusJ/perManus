@@ -42,6 +42,35 @@ $(document).ready(function() {
 
     });
 
+    $('.grid2').masonry({
+        // options
+
+        // because the class is call grid item and masonry will know what to edit
+        itemSelector: '.grid-item2',
+        // ALIGNS ITEMS TO A HORIZONTAL WIDTH
+        columnWidth: 120,
+        //SETS THE WIDTH OF THE CONTAINER TO FIT THE AVAILABLE NUMBER OF COLUMNS
+        fitWidth: true,
+        // this is adding space to the sides of the images
+        gutter: 0,
+
+
+      });
+
+      $('.grid1').masonry({
+          // options
+
+          // because the class is call grid item and masonry will know what to edit
+          itemSelector: '.grid-item1',
+          // ALIGNS ITEMS TO A HORIZONTAL WIDTH
+          columnWidth: 120,
+          //SETS THE WIDTH OF THE CONTAINER TO FIT THE AVAILABLE NUMBER OF COLUMNS
+          fitWidth: true,
+          // this is adding space to the sides of the images
+          gutter: 0,
+
+
+        });
 
     $('.slider').slick({
       autoplay: true,
